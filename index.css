@@ -134,12 +134,13 @@ a{
 h3{
     color: #7B889D;
 }
- /*
+ 
+
+
+/*
  seccion 1
  */
-
-
-#contenedor1{
+#container{
     display: flex;
     height: 90vh;
     
@@ -176,8 +177,10 @@ h3{
 .logros img{
     
     height: 25px;
-    width: auto;
-    
+    width: auto;  
+}
+.logros p{
+    color: #2D4A7B;
 }
 .im1{
     padding-right: 10px;
