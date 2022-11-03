@@ -636,7 +636,7 @@ responsive para tablets pequeñas
     .bt1{
         margin-right: 1rem;
         width: 6rem;
-        height: 2rem;
+        height: 2.5rem;
         background-color: #2A4AC8;
         color:aliceblue;
         border-radius: 5px;
@@ -709,6 +709,17 @@ responsive para tablets pequeñas
         justify-content: center;
         align-items: center;
     }
+    .enviar{
+        margin-right: 1rem;
+        width: 6rem;
+        height: 2.5rem;
+        background-color: #2A4AC8;
+        color:aliceblue;
+        border-radius: 5px;
+        border-color: #2A4AC8;
+        font-size: 15px;
+        margin: 0;
+    }
     .colum{
         width: 80%;
         display: flex;
@@ -763,7 +774,7 @@ responsive para tablets pequeñas
 
     .logros{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: flex-start;
         width: 100vh;
@@ -792,7 +803,7 @@ responsive para tablets pequeñas
     
     .info2{
         width: 100%;
-        padding-left: 10px;
+        padding-left: 5px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -919,7 +930,7 @@ responsive para tablets pequeñas
     .bt1{
         margin-right: 1rem;
         width: 6rem;
-        height: 2rem;
+        height: 2.5rem;
         background-color: #2A4AC8;
         color:aliceblue;
         border-radius: 5px;
@@ -928,7 +939,7 @@ responsive para tablets pequeñas
     
     a{    
         text-decoration: none;
-        padding-right: 6px;
+        padding-right: 10px;
     }
     h3{
         color: #7B889D;
@@ -1045,10 +1056,10 @@ responsive para tablets pequeñas
 
     .logros{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        width: 100vh;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
         height: 3rem;
         padding-top: 15px;
     }
@@ -1068,13 +1079,13 @@ responsive para tablets pequeñas
     }
     .logros p{
         color: #2D4A7B;
-        font-size: 12px;
+        font-size: 10px;
     }
    
     
     .info2{
         width: 100%;
-        padding-left: 10px;
+        padding-left: 5px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1190,8 +1201,8 @@ responsive para tablets pequeñas
     }
     .bt1{
         margin-right: 1rem;
-        width: 5rem;
-        height: 2rem;
+        width: 6rem;
+        height: 2.5rem;
         background-color: #2A4AC8;
         color:aliceblue;
         border-radius: 5px;
@@ -1200,19 +1211,13 @@ responsive para tablets pequeñas
     
     a{    
         text-decoration: none;
-        padding-right: 6px;
+        padding-right: 10px;
     }
     h3{
         color: #7B889D;
     }
         
-    /*
-     seccion 1
-     */
-    #container{
-        display: flex;
-        height: 90vh;   
-    }
+    
     /*bloque de codigo para el div flotante*/
     .datos{
         position: absolute;
@@ -1281,13 +1286,14 @@ responsive para tablets pequeñas
         display: flex;
         justify-content: space-between ;
         align-items: center;
-        height: 50vh;
-        
+        height: 50vh;  
+    }
+    .descri p{
+        font-size: 15px;
     }
     .p1{
         color: #1F3E72;
         padding-left: 20px;
-        padding-right: 10px;
     }
     .p2{
         color: #1F3E72;
@@ -1296,6 +1302,15 @@ responsive para tablets pequeñas
     .p3{
         color: #1F3E72;
         padding-left: 80px;
+    }
+
+
+    /*
+     seccion 1
+     */
+     #container{
+        display: flex;
+        height: 90vh;   
     }
     .img-sec{
         width: 50%;
@@ -1321,10 +1336,10 @@ responsive para tablets pequeñas
 
     .logros{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        width: 100vh;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
         height: 3rem;
         padding: 5px;
     }
@@ -1349,7 +1364,7 @@ responsive para tablets pequeñas
     
     .info2{
         width: 100%;
-        padding-left: 80px;
+        padding-left: 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1457,10 +1472,10 @@ responsive para tablets
         align-items: center;
         justify-content: center;
     }
-    input{
+    .bt1{
         margin-right: 1rem;
-        width: 8rem;
-        height: 3rem;
+        width: 7rem;
+        height: 2.5rem;
         background-color: #2A4AC8;
         color:aliceblue;
         border-radius: 5px;
@@ -1530,7 +1545,14 @@ responsive para tablets
         justify-content: center;
         align-items: center;
     }
-    .boton-enviar input{
+    .enviar{
+        margin-right: 1rem;
+        width: 8rem;
+        height: 3rem;
+        background-color: #2A4AC8;
+        color:aliceblue;
+        border-radius: 5px;
+        border-color: #2A4AC8;
         margin: 0;
     }
     .colum{
@@ -1579,15 +1601,15 @@ responsive para tablets
         justify-content: center;
         align-items:flex-start;
         flex-direction: column;
-        padding: 2rem;
+        padding: 1rem;
     }
 
     .logros{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: flex-start;
-        width: 100vh;
+        width: 100%;
         height: 3rem;
         padding: 5px;
     }
@@ -1610,23 +1632,21 @@ responsive para tablets
    
     
     .info2{
-        width: 80vh;
-        padding-left: 80px;
+        width: 100%;
+        padding-left: 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
     }
     .info2 h1{
+        font-size: 30px;
         padding: 10px;
-    }
-    
-    .info h1{
-        
         color: #1F3E72;
     }
     .sub-sec{
-        width: 300px;
+        width: 100%;
+        font-size: 18px;
         padding:10px;
     }
     /*
@@ -1720,7 +1740,7 @@ responsive ordenadores y pantallas chicas
         align-items: center;
         justify-content: center;
     }
-    input{
+    .bt1{
         margin-right: 1rem;
         width: 8rem;
         height: 3rem;
@@ -1793,7 +1813,14 @@ responsive ordenadores y pantallas chicas
         justify-content: center;
         align-items: center;
     }
-    .boton-enviar input{
+    .enviar{
+        margin-right: 1rem;
+        width: 8rem;
+        height: 3rem;
+        background-color: #2A4AC8;
+        color:aliceblue;
+        border-radius: 5px;
+        border-color: #2A4AC8;
         margin: 0;
     }
     .colum{
@@ -1808,13 +1835,15 @@ responsive ordenadores y pantallas chicas
         display: flex;
         justify-content: space-between ;
         align-items: center;
-        height: 50vh;
-        
+        height: 50vh; 
     }
+    .descri p{
+        font-size: 18px;
+    }
+
     .p1{
         color: #1F3E72;
-        padding-left: 20px;
-        padding-right: 10px;
+        padding-left: 40px;
     }
     .p2{
         color: #1F3E72;
@@ -1847,10 +1876,10 @@ responsive ordenadores y pantallas chicas
 
     .logros{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: flex-start;
-        width: 100vh;
+        width: 100%;
         height: 3rem;
         padding: 5px;
     }
@@ -1873,24 +1902,23 @@ responsive ordenadores y pantallas chicas
    
     
     .info2{
-        width: 80vh;
-        padding-left: 80px;
+        width: 100%;
+        padding-left: 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
     }
     .info2 h1{
+        font-size: 40px;
         padding: 10px;
-    }
-    
-    .info h1{
-        
         color: #1F3E72;
     }
+    
     .sub-sec{
-        width: 300px;
+        width: 100%;
         padding:10px;
+        font-size: 20px;
     }
     /*
     seccion 2
@@ -1979,7 +2007,7 @@ responsive para pantallas medianas
         align-items: center;
         justify-content: center;
     }
-    input{
+    .bt1{
         margin-right: 1rem;
         width: 8rem;
         height: 3rem;
@@ -2016,7 +2044,7 @@ responsive para pantallas medianas
     
     .datos1{
         position: relative;
-        top: 72vh; right: 60vh; 
+        top: 70vh; right: 60vh; 
         width: 130vh;
         height: 15vh; 
         background-color: #ffffff;
@@ -2054,9 +2082,7 @@ responsive para pantallas medianas
         justify-content: center;
         align-items: center;
     }
-    .boton-enviar input{
-        margin: 0;
-    }
+
     .colum{
         width: 80%;
         display: flex;
@@ -2069,13 +2095,16 @@ responsive para pantallas medianas
         display: flex;
         justify-content: space-between ;
         align-items: center;
-        height: 50vh;
-        
+        height: 50vh;  
+    }
+
+    .descri p{
+        font-size: 20px;
     }
     .p1{
         color: #1F3E72;
-        padding-left: 20px;
-        padding-right: 10px;
+        padding-left: 30px;
+        
     }
     .p2{
         color: #1F3E72;
@@ -2108,9 +2137,10 @@ responsive para pantallas medianas
 
     .logros{
         display: flex;
+        flex-direction: row;
         justify-content: start;
         align-items: center;
-        width: 100vh;
+        width: 100%;
         height: 3rem;
         padding: 5px;
     }
@@ -2123,11 +2153,12 @@ responsive para pantallas medianas
         color: #2D4A7B;
     }    
     .info2{
-        width: 80vh;
-        padding-left: 80px;
+        width: 100%;
+        padding-left: 70px;
     }
     .info2 h1{
         padding: 10px;
+        font-size: 40px;;
     }
     
     .info h1{
@@ -2135,9 +2166,23 @@ responsive para pantallas medianas
         color: #1F3E72;
     }
     .sub-sec{
-        width: 300px;
+        width: 100%;
         padding:10px;
+        font-size: 20px;
     }
+
+    .enviar{
+        margin-right: 1rem;
+        width: 8rem;
+        height: 3rem;
+        background-color: #2A4AC8;
+        color:aliceblue;
+        border-radius: 5px;
+        border-color: #2A4AC8;
+        margin: 0;
+    }
+
+
     /*
     seccion 2
     */
@@ -2367,7 +2412,7 @@ responsive ordenadores y pantallas grandes
         justify-content: start;
         flex-direction: row;
         align-items: center;
-        width: 100vh;
+        width: 100%;
         height: 3rem;
         padding: 5px;
     }
