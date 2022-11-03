@@ -1,230 +1,68 @@
 *{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
     padding: 0;
-    margin: 0;
-    box-sizing: border-box;   
-    font-family: sans-serif;
+    font-family: 'roboto', 'sans-serif';
+}
+a{
+    text-decoration: none;
 }
 
-    /*
-oculta la barra o el scroll por defecto de la pagina
-*/
-::-webkit-scrollbar{
-    width: 0;
-}
-
-/*
-bloque de codigo para el header
-*/
+/*bloque de codigo para el header*/
 .cabecera{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-height: 10vh;
-    width: 100%;
-    padding: 15px;
-    
-}
-/*
-bloque de codigo para el "logo" del header
-*/
-.logo{
-    display: flex;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.logo a{
-    text-align: center;
-    color: #3858D6;
-    
-}
-
-/*
-bloque de codigo para boton y texto del header
-*/
 .navegacion{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
-input{
-    margin-right: 1rem;
+.navegacion a{
+    color: #7B889D;
+    font-size: 25px;
+}
+.bt1{
+    margin: 5px;
     width: 8rem;
-    height: 3rem;
+    height: 4rem;
     background-color: #2A4AC8;
-    color:aliceblue;
-    border-radius: 5px;
-    border-color: #2A4AC8;
+    font-size: 20px;
+    color: aliceblue;
 }
-a{    
-    text-decoration: none;
-    padding-right: 2rem;
+input:hover{
+    background-color: #0c31c7;
 }
-h3{
-    color: #7B889D;
-}
- 
-
-
-/*
- seccion 1
- */
-#container{
-    display: flex;
-    height: 90vh;   
-}
-/*bloque de codigo para el div flotante*/
-.datos{
-    position: absolute;
-    overflow:visible;
-    max-width: 20vh;
-    max-height: 50vh;
-    position: relative;
+.logo h1{
+    color: #3858D6;
+    font-size: 50px;
 }
 
-.datos1{
-    position: relative;
-    top: 70vh; right: 100vh; 
-    width: 150vh;
-    height: 15vh; 
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2); 
+/*seccion 1*/
+.seccion-1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
-.dat-emp{
-    height: 100%;
+#seccion-1{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.desc-ico{
-    height: 50vh;
-    display:flex ;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-}
-.desc-ico img{
-    padding-left: 70px;
-    padding-right: 3px;
-    height: 25px;
-    width: auto;
-}
-.desc-ico p{
-    color: #7B889D;
-}
-.boton-enviar{
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.colum{
-    width: 80%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    align-items: center;
     justify-content: center;
-}
-.descri{
-    display: flex;
-    justify-content: space-between ;
     align-items: center;
-    height: 50vh;
-    
-}
-.p1{
-    color: #1F3E72;
-    padding-left: 20px;
-    padding-right: 10px;
-}
-.p2{
-    color: #1F3E72;
-    padding-left: 50px;
-}
-.p3{
-    color: #1F3E72;
-    padding-left: 80px;
-}
-.img-sec{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-}
-.img1{
-    width: auto;
-    height: 100%;
-}
-
-.info{
-
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items:flex-start;
-    flex-direction: column;
-    padding: 2rem;
-}
-.logros{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 100vh;
-    height: 3rem;
-    padding: 5px;
-}
-.logros img{
-    
-    height: 25px;
-    width: auto;  
-}
-.logros p{
-    color: #2D4A7B;
-}
-.im1{
-    padding-right: 10px;
-}
-.im2{
-    padding-right: 10px;
-    padding-left: 100px;
-}
-
-.info2{
-    width: 80vh;
-    padding-left: 80px;
-}
-.info2 h1{
-    padding: 10px;
-}
-
-.info h1{
-    
-    color: #1F3E72;
-}
-.sub-sec{
-    padding:10px;
-}
-/*
-seccion 2
-*/
-
-#contenedor2{
-    display: flex;
-    height: 100vh;
-    
-}
-.img-sec2{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-}
-.img2{
-    width: auto;
-    height: 100%;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("./IMG/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
