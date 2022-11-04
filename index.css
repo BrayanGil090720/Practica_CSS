@@ -47,6 +47,8 @@ a{
     align-items: center;
 }
 .bt1{
+    border-radius: 5px;
+    border-color: #2A4AC8;
     width: 6rem;
     height: 2.5rem;
     background-color: #2A4AC8;
