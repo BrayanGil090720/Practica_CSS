@@ -184,6 +184,9 @@ estilos para el header.
     color: aliceblue;
     
   }
+  .enviar:hover{
+    background-color: #0b2075;
+}
   
   .datos {
     display: flex;

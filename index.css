@@ -55,6 +55,9 @@ a{
     color: aliceblue;
     padding: 5px;
 }
+.bt1:hover{
+    background-color: #0b2075;
+}
 
 .logo h1{
     color: #3858D6;
@@ -186,6 +189,8 @@ a{
     align-items: center;
 }   
 .enviar{
+    border-radius: 5px;
+    border-color: #2A4AC8;
     width: 6rem;
     height: 2.5rem;
     background-color: #2A4AC8;
