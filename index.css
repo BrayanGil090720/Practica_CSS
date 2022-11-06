@@ -197,3 +197,6 @@ a{
     color: aliceblue;
     padding: 5px;
 }
+.enviar:hover{
+    background-color: #0b2075;
+}
