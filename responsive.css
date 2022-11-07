@@ -1,4 +1,4 @@
-@media (min-width: 680px), screen and (min-width: 799) {
+@media (min-width: 680px) {
   * {
     box-sizing: border-box;
     padding: 0;
@@ -15,6 +15,8 @@ estilos para el header.
     justify-content: center;
     align-items: center;
     padding: 10px;
+    background:rgba(255, 255, 255, 0.781);
+    position:fixed;
   }
 
   .nav-bar {
@@ -28,7 +30,9 @@ estilos para el header.
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+
   }
+  
   .navegacion a {
     color: #7b889d;
     padding: 0;
@@ -43,10 +47,15 @@ estilos para el header.
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 10px;
   }
   .links h3 {
-    padding-right: 10px;
+    
     font-size: 15px;
+  }
+  .links a:hover{
+    background: linear-gradient(to right, #6b6f7559, white);
+    border-radius: 10px;
   }
 
   /*seccion 1*/
@@ -103,13 +112,15 @@ estilos para el header.
     background-position: center center;
   }
   #logros {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
   .logros {
     display: flex;
+
     justify-content: flex-start;
     align-items: center;
     width: 100%;
@@ -136,7 +147,7 @@ estilos para el header.
     width: 550px;
     border-radius: 15px;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.452);
-    background-color: rgb(238, 232, 224);
+    background-color: rgba(255, 253, 251, 0.678);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,21 +208,44 @@ estilos para el header.
   }
 }
 
-@media (min-width: 800px), screen and (min-width: 900) {
+@media (min-width:730px) {
+  .info h1{
+    font-size: 30px;
+  }
+  .info h3{
+    font-size: 18px;
+  }
+  .logros p{
+    font-size: 15px;
+  }
+  .icono{
+    height: 15px;
+  }
+  .flo-cont {
+    top: 35vh; left: 20vh;
+    width: 550px;
+  }
+}
+
+@media (min-width: 800px){
 
     .links h3 {
         padding-right: 10px;
         font-size: 20px;
       }
       .flo-cont {
-        top: 33vh; left: 15vh;
+        top: 36vh; left: 15vh;
         
       }
-    
+      #logros{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }
 }
 
 
-@media (min-width: 901px), screen and (min-width: 1100){
+@media (min-width: 915px){
     .links h3 {
         padding-right: 10px;
         font-size: 25px;
@@ -231,6 +265,7 @@ estilos para el header.
         background-position: center center;
       }
       .flo-cont {
+        left: 22vh;
         width: 700px;
       }
       .enviar{
@@ -242,7 +277,7 @@ estilos para el header.
         height: 3rem;
       }
       .info{
-        width: 80%;
+        width: 100%;
       }
       #logros{
         display: flex;
@@ -255,7 +290,19 @@ estilos para el header.
       }
       .desc p{
         font-size: 18px;
-        padding-right: 50px;
+        padding-right: 40px;
+      }
+      .icono{
+        height: 20px;
+      }
+      .info h1{
+       font-size: 20px;
+      }
+      .info h3{
+        font-size: 30px;
+      }
+      .logros p{
+        font-size: 20px;
       }
 }
 
@@ -294,10 +341,46 @@ estilos para el header.
         width: 800px;
       }
       
+      
+      .icono{
+        height: 25px;
+      }
       .info h1{
-        font-size: 50px;
+       font-size: 55px;
       }
       .info h3{
+        font-size: 30px;
+      }
+      .logros p{
         font-size: 25px;
       }
-    }
+    
+}
+
+@media (min-width:1500px){
+  .flo-cont {
+    top: 33vh; left: 45vh;
+    width: 800px;
+  }
+  .info h1{
+    font-size: 60px;
+  }
+  .info h3{
+    font-size: 40px;
+  }
+  .logros p{
+    font-size: 25px;
+  }
+  .icono{
+    height: 30px;
+  }
+
+}
+
+@media (min-width:1600px) {
+  .flo-cont {
+    top: 33vh; left: 40vh;
+    width: 800px;
+  }
+}
+
