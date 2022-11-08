@@ -223,6 +223,7 @@ SECCION 2
     align-items: center;
 }
 .tit-2{
+    text-align: center;
     color: #1F3E72;
     font-size: 30px;
 }
@@ -233,16 +234,17 @@ SECCION 2
     font-size: 16px;
 }
 .contenedor-items{
-    
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .cont-it{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .item{
@@ -251,7 +253,7 @@ SECCION 2
     height: 300px;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     
     border-radius: 5px;
