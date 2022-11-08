@@ -200,3 +200,78 @@ a{
 .enviar:hover{
     background-color: #0b2075;
 }
+
+/*
+SECCION 2   
+*/
+#seccion-2{
+    width: 100%;
+}
+.contenedor{
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.info2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tit-2{
+    color: #1F3E72;
+    font-size: 30px;
+}
+.sub-2{
+    padding: 15px;
+    text-align: center;
+    color: #7B889D;
+    font-size: 16px;
+}
+.contenedor-items{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-it{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.icono-it{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.icono-it img{
+    height: 20px;
+}
+.desc-it h1{
+    font-size: 22px;
+    color: #1F3E72;
+}
+.desc-it{
+    color: #7B889D;
+    font-size: 15px;
+}
