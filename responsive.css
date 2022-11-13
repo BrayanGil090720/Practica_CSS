@@ -16,7 +16,7 @@ estilos para el header.
     align-items: center;
     padding: 10px;
     background:rgba(255, 255, 255, 0.781);
-    position:fixed;
+
   }
 
   .nav-bar {
@@ -258,6 +258,43 @@ estilos para el header.
         padding: 0;
         width: 50%;
       }
+      /*
+      tercera seccion
+      */
+      .seccion3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+      }
+      .contenedor_iz{
+        width: 40%;
+        height: 100%;
+      }
+      .img3{
+        height: 100%;
+        width: 100%;
+        background-image: url("./IMG/2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+      .cont-dr-padre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 60%;
+        height: 100%;
+      }
+      .tit-sub{
+        text-align: start;
+      }
+      .tit-sub h1{
+        font-size: 40px;
+      }
+      
       
 }
 
@@ -321,6 +358,32 @@ estilos para el header.
       .logros p{
         font-size: 20px;
       }
+      /*
+      seccion 2
+      */
+      .item{
+        width: 300px;
+      }
+      .tit-2{
+        text-align: start;
+        width: 600px;
+      }
+      .sub-2{
+        width: 600px;
+      }
+
+
+
+      /*seccion 3*/
+
+      .contendor-dr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 60px;
+        width: 60vh;
+      }
 }
 
 @media (min-width: 1101px){
@@ -371,7 +434,23 @@ estilos para el header.
       .logros p{
         font-size: 16px;
       }
-    
+
+      /*
+      seccion 3
+      */
+      .cont-dr-padre{
+        padding-right: 80px;
+        align-items: flex-end;
+        justify-content: center;
+        padding-right: 0px;
+      }
+      .contenedor-dr{
+        
+        max-width: 650px;
+      }
+
+
+      
 }
 
 @media (min-width:1500px){
@@ -391,6 +470,7 @@ estilos para el header.
   .icono{
     height: 30px;
   }
+ 
 
 }
 
