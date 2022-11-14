@@ -308,11 +308,13 @@ SECCION 3
     padding: 15px;
 }
 .tit-sub h1{
+    font-size: 20px;
     padding: 10px;
     width: 100%;
     color: #1F3E72;
 }
 .tit-sub h2{
+    font-size: 15px;
     padding: 10px;
     width: 100%;
     color:#7B889D
@@ -360,4 +362,112 @@ div:target p{
     align-items: center;
     width: 90%;
 
+}
+/*
+seccion 4
+*/
+
+.seccion4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow:visible;
+}
+.div_iz{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.tit_sub2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40%;
+}
+.tit_sub2 h1{
+
+    color: #1F3E72;
+    font-size: 20px;
+    text-align: center;
+}
+.tit_sub2 h2{
+    width: 80%;
+    color: #7B889D;
+    text-align: center;
+    font-size: 15px;
+}
+.contactos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+.item_contac{
+    padding: 20px;
+    width: 220px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.267);
+    padding: 5px;
+    margin: 10px;
+}
+.icono_img img{
+    
+    height: 30px;
+}
+.icono_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.icono_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.texto_it{
+    width: 80%;
+}
+.texto_it h1{
+    color:#0b2075;
+}
+.texto_it h3{
+    color:#7B889D;
+    font-size: 15px;
+}
+.bot_contact{
+    width: 10rem;
+    height: 3rem;
+    color: #0b2075;
+    font-size: 15px;
+    background-color: #e2dddd93;
+    border:0px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.bot_contact:hover{
+    background-color: #2A4AC8;
+    color: #fff;
+    
+}
+.boton_it{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
 }
