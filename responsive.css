@@ -206,6 +206,9 @@ estilos para el header.
   .cont-btn {
     width: 20%;
   }
+  .tit_sub2 h2{
+    font-size: 10px;
+  }
   
 }
 
@@ -239,8 +242,8 @@ estilos para el header.
   .contactos{
     justify-content: space-around;
     flex-direction: row;
-    width: 600px;
-    height: 90%;
+    width: 60%;
+    height: 60%;
   }
   .item_contact{
     width: 300px;
@@ -330,7 +333,22 @@ estilos para el header.
      .tit-sub h2{
         font-size: 15px;
      }
-
+     /*
+     cuarta seccion
+     */
+     .tit_sub2 h1{
+      font-size: 30px;
+      text-align: start;
+      width: 60%;
+     }
+     .tit_sub2 h2{
+      width: 60%;
+      font-size: 15px;
+     }
+     .contactos{
+      width: 55%;
+      height: 70%;
+     }
 }
 
 
@@ -423,6 +441,7 @@ estilos para el header.
       seccion 4
       */
       .seccion4{
+        height: 100vh;
         width: 100%;
         flex-direction: row;
         display: flex;
@@ -434,6 +453,7 @@ estilos para el header.
         align-items: center;
         padding-left: 20px;
         width: 70%;
+        height: 100%;
       }
       .dr{
         height: 100vh;
@@ -448,6 +468,7 @@ estilos para el header.
         margin: 0;
         padding: 0;
       }
+      
       .img_sec4{
         background-image: url("./IMG/3.jpg");
         height: 100%;
@@ -455,6 +476,9 @@ estilos para el header.
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
+      }
+      .contactos{
+        width: 80%;
       }
 
 }
@@ -524,7 +548,13 @@ estilos para el header.
       .tit_sub2{
         width: 60%;
       }
-
+      /*
+      seccion 4
+      */
+      .contactos{
+        width: 60%;
+        height: 60%;
+      }
 
       
 }
@@ -546,10 +576,52 @@ estilos para el header.
   .icono{
     height: 30px;
   }
- 
 
+  /*
+  tercera seccion
+  */
+  .tit-sub h1{
+    font-size: 30px;
+  }
+  .tit-sub h2{
+    font-size: 20px;
+  }
+  .icono-texto h3{
+    font-size: 20px;
+  }
+  .acordeon p{
+    font-size: 16px;
+  }
+
+  /*
+  cuarta seccion
+  */
+
+  .contactos{
+    width: 60%;
+  }
+  .tit_sub2 h1{
+    font-size: 30px;
+  }
+  .tit_sub2 h2{
+    font-size: 25px;
+  }
+  .item_contac{
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+  }
+  .bot_contact{
+    width: 10rem;
+    height: 4rem;
+  }
+  .texto_it h1{
+    font-size: 20px;
 }
-
+.texto_it h3{
+    font-size: 18px;
+}
+}
 @media (min-width:1600px) {
   .flo-cont {
     top: 33vh; left: 40vh;

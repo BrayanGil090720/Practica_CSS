@@ -8,6 +8,10 @@
 a{
     text-decoration: none;
 }
+html{
+    height: 100%;
+    width: 100%;
+}
 
 /*bloque de codigo para el header*/
 .cabecera{
@@ -291,12 +295,17 @@ SECCION 3
     height: 100vh;
     width: 100%;
 }
+.cont-dr-padre{
+    height: 100vh;
+    width: 100%;
+}
 .contenedor-dr{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
+    height: 100%;
 }
 .tit-sub{
     width: 100%;
@@ -326,6 +335,7 @@ SECCION 3
     align-items: center;
     flex-direction: column;
     width: 80%;
+    height: 70%;
 }
 .acordeon h3{
     text-align: start;
@@ -333,10 +343,10 @@ SECCION 3
     padding: 10px;
     text-decoration: none;
     color: #1F3E72;
-    font-size: 20px;
+    font-size: 15px;
 }
 .acordeon p{
-    font-size: 15px;
+    font-size: 12px;
     color: #7B889D;
     max-height: 0px;
     overflow: hidden;
@@ -381,7 +391,7 @@ seccion 4
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 .tit_sub2{
@@ -389,19 +399,20 @@ seccion 4
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 40%;
+    height: 25%;
+    min-width: 100%;
 }
 .tit_sub2 h1{
-
     color: #1F3E72;
     font-size: 20px;
     text-align: center;
 }
 .tit_sub2 h2{
-    width: 80%;
+    width: 100%;
     color: #7B889D;
     text-align: center;
     font-size: 15px;
+
 }
 .contactos{
     display: flex;
@@ -409,12 +420,12 @@ seccion 4
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50%;
+    height: 70%;
 }
 .item_contac{
     padding: 20px;
-    width: 220px;
-    height: 200px;
+    width: 160px;
+    height: 110px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -426,7 +437,7 @@ seccion 4
 }
 .icono_img img{
     
-    height: 30px;
+    height: 25px;
 }
 .icono_img{
     display: flex;
@@ -444,14 +455,15 @@ seccion 4
     width: 80%;
 }
 .texto_it h1{
+    font-size: 15px;
     color:#0b2075;
 }
 .texto_it h3{
     color:#7B889D;
-    font-size: 15px;
+    font-size: 12px;
 }
 .bot_contact{
-    width: 10rem;
+    width: 8rem;
     height: 3rem;
     color: #0b2075;
     font-size: 15px;
